@@ -13,7 +13,7 @@ container.addEventListener('mousemove',(e)=>{
     let xAxis = (window.innerWidth/2 - e.pageX)/15
     let yAxis = (window.innerHeight / 2 - e.pageY)/15
     card.style.transform =  `rotateX(${yAxis}deg) rotateY(${xAxis}deg)`
-    console.log(xAxis,yAxis)
+   
 })
 // card.addEventListener
 

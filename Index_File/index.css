@@ -12,7 +12,7 @@ body{
 .container {
     
     width: 50%;
-    background: khaki;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,9 +49,7 @@ img {
 }
 
 /* //card title part */
-.cardTitale{
 
-}
 .cardTitale h2{
     transition: all .6s ease;
     font-size: 30px;
