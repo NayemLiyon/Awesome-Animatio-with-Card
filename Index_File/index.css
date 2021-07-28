@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.boateWrapper {
+    width: 800px;
+    background: khaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+padding: 20px;
+width: 500px;
+
+box-shadow: 1px 0px 23px -1px;
+
+border-radius: 11px;
+
+height: 90vh;
+}
+div#imge {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40%;
+}
+img {
+    width: 13rem;
+    z-index: 2;
+}
+
+.circle {
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(to left, rgb(10, 172, 212), rgba(192, 3, 107, 0.795));
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* //card title part */
+.cardTitale{
+
+}
+.cardTitale h2{
+    font-size: 30px;
+    color: #333;
+}
+.cardTitale h5{
+    color: #444;
+    font-size: 25px;
+    width: 80%;
+    line-height: 35px;
+}
+
+/* BUTTON PART */
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:first-child{
+    margin-left:0
+}
+.btn{
+    width: 60px;
+    height: 20px;
+    background:white;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 30px;
+    text-align: center;
+    transition: .4s;
+    font-weight: bolder;
+    box-shadow: 0px 0px 17px -4px;
+}
+
+;
+  
+}
+.btnA{
+    background-color: #222;
+    color: white;
+    transition: .4s;
+}
+.purchse{
+    width: 100%;
+}
+.purchse button{
+    width: 100%;
+    margin-top: 50px;
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 30px;
+    box-shadow:  1px 1px 38px -6px black;
+}
+
+/* HOVER PART */
+.btn:hover{
+    background:#222;
+    color: white;
+}
+.btnA:hover{
+    color: black;
+    background: white;
+}
